@@ -33,27 +33,27 @@ Compiling
 
 == Timing results ==
 
-guido@linux-9cge:~/scratch/xorshiftSSE/remake> ./xorshiftSSE 
-xorshift32 1000000000 samples in 4.162631 sec.
-xorshift32SSE 1000000000 samples in 1.987162 sec. speedup 2.095
-xorshift32SSE unrolled 1000000000 samples in 1.094806 sec. speedup 3.802
-xorshift function pointers 1000000000 samples in 1.286171 sec.speedup 3.236
+> guido@linux-9cge:~/scratch/xorshiftSSE/remake> ./xorshiftSSE 
+> xorshift32 1000000000 samples in 4.162631 sec.
+> xorshift32SSE 1000000000 samples in 1.987162 sec. speedup 2.095
+> xorshift32SSE unrolled 1000000000 samples in 1.094806 sec. speedup 3.802
+> xorshift function pointers 1000000000 samples in 1.286171 sec.speedup 3.236
 
-guido@linux-9cge:~/scratch/xorshiftSSE/remake> ./xorshiftSSE
-xorshift32 1000000000 samples in 3.843894 sec.
-xorshift32SSE 1000000000 samples in 1.756420 sec. speedup 2.188
-xorshift32SSE unrolled 1000000000 samples in 0.918752 sec. speedup 4.184
-xorshift function pointers 1000000000 samples in 1.282542 sec. speedup 2.997
+> guido@linux-9cge:~/scratch/xorshiftSSE/remake> ./xorshiftSSE
+> xorshift32 1000000000 samples in 3.843894 sec.
+> xorshift32SSE 1000000000 samples in 1.756420 sec. speedup 2.188
+> xorshift32SSE unrolled 1000000000 samples in 0.918752 sec. speedup 4.184
+> xorshift function pointers 1000000000 samples in 1.282542 sec. speedup 2.997
 
-guido@linux-9cge:~/scratch/xorshiftSSE/remake> ./xorshiftSSE
-xorshift32 1000000000 samples in 3.957081 sec.
-xorshift32SSE 1000000000 samples in 1.987700 sec. speedup 1.991
-xorshift32SSE unrolled 1000000000 samples in 1.095842 sec. speedup 3.611
-xorshift function pointers 1000000000 samples in 1.285295 sec. speedup 3.079
+> guido@linux-9cge:~/scratch/xorshiftSSE/remake> ./xorshiftSSE
+> xorshift32 1000000000 samples in 3.957081 sec.
+> xorshift32SSE 1000000000 samples in 1.987700 sec. speedup 1.991
+> xorshift32SSE unrolled 1000000000 samples in 1.095842 sec. speedup 3.611
+> xorshift function pointers 1000000000 samples in 1.285295 sec. speedup 3.079
 
 Average speed-up:
-xorshift32SSE 2.091
-xorshift32SSE unrolled 3.866
-xorshift function pointers 3.104
+> xorshift32SSE 2.091
+> xorshift32SSE unrolled 3.866
+> xorshift function pointers 3.104
 
 
