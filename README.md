@@ -1,11 +1,12 @@
-
-== Vectorised implementation of Marsaglia's XORSHIFT random number generator ==
+A vectorised implementation of Marsaglia's XORSHIFT random number generator
+===========================================================================
 
 This vectorised version of Marsaglia's XORSHIFT random number generator (RNG) is implemented using Intel's streaming SIMD extensions (SSE) version 4.1. The RNG generates 32-bit random samples. The width of the vector registers is 128 bit giving a vector length of 4 32-bit integers.
 
 
-== Very brief overview of Intels streaming SIMD extensions (SSE) ==
-
+Very brief overview of Intels streaming SIMD extensions (SSE)
+-------------------------------------------------------------
+To be written.
 
 == SSE based implementations == 
 For a description of Marsaglia's XORSHIFT RNG, please refer to <> or the documentation of the TinyRNG library <link goe here>.
